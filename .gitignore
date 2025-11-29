@@ -1,0 +1,99 @@
+# ======================================
+#   ENTORNOS VIRTUALES
+# ======================================
+env/
+venv/
+.env/
+ENV/
+.venv/
+
+# ======================================
+#   ARCHIVOS DE CONFIGURACIÓN SENSIBLE
+# ======================================
+# Variables de entorno
+*.env
+*.key
+*.pem
+*.p12
+*.crt
+*.csr
+
+# ======================================
+#   ARCHIVOS DE PYTHON
+# ======================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ======================================
+#   UVICORN / FASTAPI
+# ======================================
+# Archivos generados por uvicorn
+*.log
+
+# ======================================
+#   JUPYTER (si usas notebooks)
+# ======================================
+.ipynb_checkpoints/
+
+# ======================================
+#   FRONTEND ESTÁTICO
+# ======================================
+frontend/node_modules/
+frontend/dist/
+frontend/bundle.js
+frontend/*.map
+
+# Por si guardas builds o assets generados
+frontend/build/
+frontend/.DS_Store
+
+# ======================================
+#   SISTEMAS OPERATIVOS
+# ======================================
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ======================================
+#   BASES DE DATOS LOCALES
+# ======================================
+*.sqlite3
+*.db
+*.sqlite
+
+# ======================================
+#   OTROS ARCHIVOS QUE NO DEBEN SUBIRSE
+# ======================================
+# Cache de herramientas
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# Editor settings
+.vscode/
+.idea/
+
+# ======================================
+#   BACKEND
+# ======================================
+# Compilaciones
+/build/
+dist/
+
+# ======================================
+#   CSV Y FUENTES DE DATOS (opcionales)
+# ======================================
+# Si quieres ignorar todo /data menos data.csv:
+# data/*
+# !data/data.csv
+

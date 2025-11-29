@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chat CSV → LLM</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Chat (fuente única: CSV)</h1>
+    <div id="chat" class="chat"></div>
+
+    <form id="form" class="input-area" onsubmit="return false;">
+      <input id="message" autocomplete="off" placeholder="Escribe tu pregunta..." />
+      <button id="send">Enviar</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
